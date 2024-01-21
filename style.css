@@ -21,7 +21,7 @@ body {
 header {
   height: 100vh;
   padding: 36px 100px;
-  background-image: url(II.png);
+  background-image: url(images/II.png);
   background-position: 800px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -245,12 +245,12 @@ header nav .search i {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 50px;
-  gap: 2.5vh;
+  gap: 8vh;
 }
 
 .skill-card {
-  height: 20vw;
-  width: 20vw;
+  height: 15vw;
+  width: 15vw;
   background-color: #3d3e42;
   border-radius: 20px;
   display: flex;
@@ -302,15 +302,15 @@ header nav .search i {
   display: grid;
   grid-template-columns: auto auto auto;
   margin-top: 50px;
-  gap: 2.5vh;
+  gap: 10vh;
   justify-content: center;
   align-items: center;
 }
 
 .portfolio-card {
   position: relative;
-  height: 30vw;
-  width: 30vw;
+  height: 23vw;
+  width: 23vw;
   background-color: #3d3e42;
   border-radius: 20px;
   overflow: hidden;
@@ -322,8 +322,8 @@ header nav .search i {
 
 .portfolio-cardss {
   position: relative;
-  height: 30vw;
-  width: 30vw;
+  height: 23vw;
+  width: 23vw;
   background-color: #3d3e42;
   border-radius: 20px;
   overflow: hidden;
@@ -337,16 +337,16 @@ header nav .search i {
 
 .portfolio-card img {
   position: relative;
-  height: 30vw;
-  width: 30vw;
+  height: 23vw;
+  width: 23vw;
   object-fit: cover;
   background-color: white;
 }
 
 .portfolio-cardss img {
   position: relative;
-  height: 30vw;
-  width: 30vw;
+  height: 23vw;
+  width: 23vw;
   object-fit: cover;
   background-color: white;
 }
@@ -364,7 +364,7 @@ header nav .search i {
   background-color: #34353ba2;
   align-items: center;
   justify-content: center;
-  padding: 24px;
+  padding: 100px;
   opacity: 0;
   transition: all ease 0.5s;
 }
@@ -382,7 +382,7 @@ header nav .search i {
   background-color: #34353ba2;
   align-items: center;
   justify-content: center;
-  padding: 24px;
+  padding: 100px;
   opacity: 0;
   transition: all ease 0.5s;
 }
@@ -697,89 +697,130 @@ header nav .search i {
     text-decoration: none;
 
   }
+
   .intro button {
     height: 40px;
-  width: 90px;
-  font-size: 13px;
+    width: 90px;
+    font-size: 13px;
   }
-  .about{
+
+  .about {
     margin-top: 17vw;
     padding: 18px;
     align-items: center;
     justify-content: center;
   }
+
   .about h1 {
     font-size: 35px;
   }
+
   .about .description p {
     font-size: 16px;
 
   }
-  .about .description .line { 
-   margin-right: 10px;
+
+  .about .description .line {
+    margin-right: 10px;
   }
+
   .skills h1 {
     font-size: 35px;
   }
+
   .skills {
     padding: 30px 10px;
     margin-top: 17vw;
   }
+
   .skill-card h2 {
     font-size: 13px;
   }
 
+  .cards {
+    gap: 3vh;
+  }
+
+ 
+  .skill-card {
+    height: 20vw;
+    width: 20vw;
+    background-color: #3d3e42;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vh;
+    transition: all ease 0.5s;
+    /* padding: 19px; */
+  }
+
+
   /* .portfolio  */
 
   .portfolio h1 {
-  font-size: 35px;
+    font-size: 35px;
   }
+
   .portfolio-card img {
     position: relative;
-    height: 30vw;
-    width: 30vw;
+    height: 23vw;
+    width: 23vw;
   }
+
   .portfolio-cards {
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
+    gap: 3vh;
   }
+
   .portfolio-card .overlay h3 {
     font-size: 10px;
   }
-  
+
   .portfolio-card .overlay p {
     font-size: 8px;
   }
+
   .portfolio-card .overlay:hover {
     opacity: 0;
   }
+
   .portfolio-cardss .overlay:hover {
     opacity: 0;
   }
+
   /* .experience */
- 
+
   .experience h1 {
     font-size: 40px;
     margin-left: 70px;
     top: 8.5%;
   }
+
   .lighter-div {
     height: 120vh;
-   }
+  }
+
   .exp-desc p {
     color: #fbfbfb;
     font-size: 12;
     font-weight: 300;
   }
+
   .exp h2 {
     font-size: 26px;
     font-weight: 300;
   }
+
   .lighter-div .exp {
     height: 40vh;
     width: 60vw;
     margin-left: 8vh;
-    
+
   }
+
   .exp h2::before {
     content: "";
     height: 15px;
@@ -791,6 +832,7 @@ header nav .search i {
     top: 7.5%;
     left: -20%;
   }
+
   .exp-desc::before {
     content: "";
     height: 190px;
@@ -801,31 +843,29 @@ header nav .search i {
     top: 50%;
     left: -20%;
   }
+
   .lighter-div {
-  background-color: #3d3e42;
-  width: 100vw;
-  /* height: 90vh; */
-  padding: 10vh;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
+    background-color: #3d3e42;
+    width: 100vw;
+    /* height: 90vh; */
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
   .contact-me {
     padding: 40px;
   }
+
   .contact-me h1 {
     font-size: 40px;
     font-weight: 700;
   }
+
   .contact {
     display: flex;
     gap: 5px;
     flex-direction: column;
   }
-  }
-
-
-
-
-
- 
+}
