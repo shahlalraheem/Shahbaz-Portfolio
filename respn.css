@@ -1,0 +1,107 @@
+@media screen and (max-width: 600px) {
+    nav {
+      padding: 1em 2em;
+    }
+    nav img {
+      height: 50px;
+    }
+    nav h1 {
+      font-size: 0.5rem;
+    }
+    section {
+      padding: 8em 2em 2em 2em;
+    }
+    .level-1 {
+      grid-template-columns: 1fr;
+    }
+    .level-1 li:nth-of-type(1) {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .level-1 li:nth-of-type(2) {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    .level-1 li:nth-of-type(3) {
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+    .level-1 li:nth-of-type(4) {
+      grid-column: 1/2;
+      grid-row: 4/5;
+    }
+    .hi-1 {
+        background-image: url("images/aa1.png");    
+      background-size: 700px;
+      /* margin-top: 100px; */
+      margin-right: 200px;
+    }
+    .hi-2 {
+      background-image: url("images/aa2.png");    
+      background-size: 700px;
+      /* margin-top: 100px; */
+      margin-right: 200px;
+    } .hi-3 {
+      background-image: url("images/aa3.png");    
+      background-size: 700px;
+      /* margin-top: 100px; */
+      margin-right: 200px;
+    } .hi-4 {
+      background-image: url("images/aa4.png");    
+      background-size: 700px;
+      /* margin-top: 100px; */
+      margin-right: 200px;
+    }
+    .hi-5 {
+      background-image: url("images/aa5.png");    
+      background-size: 700px;
+      /* margin-top: 100px; */
+      margin-right: 200px;
+    }
+    .hero-image {
+   
+      background-size: none;
+      background-position: none;
+  
+    }
+    .sof {
+    height: 80px;
+    width: 80px;
+  }
+  .hero-info h2 {
+    font-size: clamp(1rem, 6vw, 3rem);
+    line-height: clamp(1rem, 6vw, 3rem);
+    text-transform: uppercase;
+  }
+  .hero-info h1 {
+    color: var(--white);
+    font-size: clamp(1.2rem, 6vw, 3rem);
+    line-height: clamp(1.2rem, 60vw, 3rem);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  }
+  .hero-info h3 {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 0em;
+  }
+  .hero-info h4 {
+    /* margin-top: 240px; */
+    display: flex;
+    align-items: center
+    
+  }
+  .store {
+    height: 90px;
+  }
+  .A {
+    height: 38px;
+    margin-top: 7px;
+    margin-left: 20px;
+  }
+  .hero-info {
+    top: 80%;
+    left: 20%;
+  }
+  }

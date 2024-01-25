@@ -120,7 +120,12 @@
     .skill-card h2 {
       font-size: 13px;
     }
-  
+    .skill-card {
+      height: 20vw;
+      width: 20vw;
+      /* padding: 19px; */
+    }
+
     /* .portfolio  */
   
     .portfolio h1 {
@@ -128,8 +133,9 @@
     }
     .portfolio-card img {
       position: relative;
-      height: 30vw;
-      width: 30vw;
+      height: 25vw;
+      width: 25vw;
+      align-items: center;
     }
     .portfolio-cards {
       grid-template-columns: auto auto ;
